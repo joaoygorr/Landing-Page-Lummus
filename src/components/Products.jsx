@@ -1,12 +1,15 @@
-import React from 'react';
-import { Card, CardContent } from './ui/card';
-import { Button } from './ui/button';
-import { ArrowRight } from 'lucide-react';
-import { products } from '../mock';
+import React from "react";
+import { Card, CardContent } from "./ui/card";
+import { Button } from "./ui/button";
+import { ArrowRight } from "lucide-react";
+import { products } from "../mock";
 
 const Products = () => {
   return (
-    <section id="products" className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section
+      id="products"
+      className="py-20 bg-gradient-to-b from-gray-50 to-white"
+    >
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="text-emerald-700 font-semibold text-sm uppercase tracking-wide">
@@ -16,7 +19,8 @@ const Products = () => {
             Product Lines
           </h2>
           <p className="text-xl text-gray-600">
-            Comprehensive machinery solutions for every stage of fiber processing
+            Comprehensive machinery solutions for every stage of fiber
+            processing
           </p>
         </div>
 
@@ -34,11 +38,15 @@ const Products = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4">
-                  <h3 className="text-xl font-bold text-white">{product.title}</h3>
+                  <h3 className="text-xl font-bold text-white">
+                    {product.title}
+                  </h3>
                 </div>
               </div>
               <CardContent className="p-6">
-                <p className="text-gray-600 mb-4 line-clamp-3">{product.description}</p>
+                <p className="text-gray-600 mb-4 line-clamp-3">
+                  {product.description}
+                </p>
                 <Button
                   variant="ghost"
                   className="text-emerald-700 hover:text-emerald-800 hover:bg-emerald-50 p-0 h-auto transition-colors duration-200"
