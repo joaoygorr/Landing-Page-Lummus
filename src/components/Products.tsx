@@ -1,4 +1,3 @@
-import React from "react";
 import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
@@ -13,14 +12,14 @@ const Products = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="text-emerald-700 font-semibold text-sm uppercase tracking-wide">
-            Our Solutions
+            NOSSAS SOLUÇÕES
           </span>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4 mb-6">
-            Product Lines
+            Linha de Produtos
           </h2>
           <p className="text-xl text-gray-600">
-            Comprehensive machinery solutions for every stage of fiber
-            processing
+            Soluções abrangentes de máquinas para todas as etapas do
+            processamento de fibras
           </p>
         </div>
 
@@ -51,7 +50,7 @@ const Products = () => {
                   variant="ghost"
                   className="text-emerald-700 hover:text-emerald-800 hover:bg-emerald-50 p-0 h-auto transition-colors duration-200"
                 >
-                  Learn More
+                  Saiba mais
                   <ArrowRight className="ml-2" size={16} />
                 </Button>
               </CardContent>

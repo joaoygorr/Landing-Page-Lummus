@@ -1,7 +1,6 @@
-import React from 'react';
-import { Card, CardContent } from './ui/card';
-import { MapPin, TrendingUp } from 'lucide-react';
-import { cases } from '../mock';
+import { Card, CardContent } from "./ui/card";
+import { MapPin, TrendingUp } from "lucide-react";
+import { cases } from "../mock";
 
 const Cases = () => {
   return (
@@ -9,13 +8,14 @@ const Cases = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="text-emerald-700 font-semibold text-sm uppercase tracking-wide">
-            Success Stories
+            Histórias DE SUCESSO
           </span>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4 mb-6">
-            Our Work
+            Nosso Trabalho
           </h2>
           <p className="text-xl text-gray-600">
-            Real-world solutions delivering exceptional results for our clients worldwide
+            Real-world solutions delivering exceptional results for our clients
+            worldwide
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const Cases = () => {
             <Card
               key={caseStudy.id}
               className={`overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-300 ${
-                index % 2 === 0 ? '' : ''
+                index % 2 === 0 ? "" : ""
               }`}
             >
               <div className="grid md:grid-cols-2 gap-0">
@@ -41,7 +41,9 @@ const Cases = () => {
                     <CardContent className="p-8 flex flex-col justify-center">
                       <div className="flex items-center space-x-2 text-emerald-700 mb-4">
                         <MapPin size={18} />
-                        <span className="text-sm font-semibold">{caseStudy.location}</span>
+                        <span className="text-sm font-semibold">
+                          {caseStudy.location}
+                        </span>
                       </div>
                       <h3 className="text-2xl font-bold text-gray-900 mb-4">
                         {caseStudy.title}
@@ -51,7 +53,9 @@ const Cases = () => {
                       </p>
                       <div className="inline-flex items-center space-x-2 bg-emerald-50 text-emerald-800 px-4 py-2 rounded-lg">
                         <TrendingUp size={18} />
-                        <span className="font-semibold text-sm">{caseStudy.impact}</span>
+                        <span className="font-semibold text-sm">
+                          {caseStudy.impact}
+                        </span>
                       </div>
                     </CardContent>
                   </>
@@ -60,7 +64,9 @@ const Cases = () => {
                     <CardContent className="p-8 flex flex-col justify-center order-2 md:order-1">
                       <div className="flex items-center space-x-2 text-emerald-700 mb-4">
                         <MapPin size={18} />
-                        <span className="text-sm font-semibold">{caseStudy.location}</span>
+                        <span className="text-sm font-semibold">
+                          {caseStudy.location}
+                        </span>
                       </div>
                       <h3 className="text-2xl font-bold text-gray-900 mb-4">
                         {caseStudy.title}
@@ -70,7 +76,9 @@ const Cases = () => {
                       </p>
                       <div className="inline-flex items-center space-x-2 bg-emerald-50 text-emerald-800 px-4 py-2 rounded-lg">
                         <TrendingUp size={18} />
-                        <span className="font-semibold text-sm">{caseStudy.impact}</span>
+                        <span className="font-semibold text-sm">
+                          {caseStudy.impact}
+                        </span>
                       </div>
                     </CardContent>
                     <div className="relative h-64 md:h-auto overflow-hidden order-1 md:order-2">

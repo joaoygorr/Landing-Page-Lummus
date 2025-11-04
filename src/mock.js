@@ -1,13 +1,12 @@
-// Mock data for Lummus landing page
-
 export const companyInfo = {
-  name: "Lummus Ag Solutions",
+  name: "Lummus Do Brasil",
   tagline: "Cotton Ginning Worldwide",
   description:
     "World's leading full-line supplier of machinery and replacement parts for the cotton ginning industry.",
-  location: "225 Bourne Boulevard, Savannah, Georgia 31408-9586",
-  phone: "+1 (912) 748-4100",
-  email: "info@lummus.com",
+  location:
+    "Avenida Manoel José de Arruda, 1055 (Antiga Carvalima), Cuiabá, MT, Brazil",
+  phone: "(65) 3634-8452",
+  email: "vendas@lummus.com.br",
 };
 
 export const heroContent = {
@@ -39,33 +38,33 @@ export const centurionFeatures = [
 export const products = [
   {
     id: 1,
-    title: "Cotton Ginning",
+    title: "Descaroçamento de algodão",
     description:
-      "Complete line of cotton ginning machinery featuring the Lummus Gentle Ginning System and Centurion technology.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?w=400&h=400&fit=crop",
   },
   {
     id: 2,
-    title: "Oilseed Processing",
+    title: "Processamento de sementes oleaginosas",
     description:
-      "Advanced machinery for processing various oilseeds with maximum efficiency and quality output.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400&h=400&fit=crop",
   },
   {
     id: 3,
-    title: "Synthetic Fiber",
+    title: "Fibra Sintética",
     description:
-      "Specialized equipment for synthetic fiber production and processing applications.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
   {
     id: 4,
-    title: "Other Fiber Processing",
+    title: "Outros processamentos de fibras",
     description:
-      "Comprehensive solutions for various fiber processing needs across different industries.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image:
       "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=400&h=400&fit=crop",
   },
@@ -109,5 +108,5 @@ export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Products", href: "#products" },
   { label: "Case Studies", href: "#cases" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contato", href: "#contact" },
 ];
