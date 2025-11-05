@@ -7,7 +7,7 @@ const Cases = () => {
     <section id="cases" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="text-emerald-700 font-semibold text-sm uppercase tracking-wide">
+          <span className="text-red-700 font-semibold text-sm uppercase tracking-wide">
             Histórias DE SUCESSO
           </span>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4 mb-6">
@@ -39,7 +39,7 @@ const Cases = () => {
                       <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                     </div>
                     <CardContent className="p-8 flex flex-col justify-center">
-                      <div className="flex items-center space-x-2 text-emerald-700 mb-4">
+                      <div className="flex items-center space-x-2 text-red-700 mb-4">
                         <MapPin size={18} />
                         <span className="text-sm font-semibold">
                           {caseStudy.location}
@@ -51,7 +51,7 @@ const Cases = () => {
                       <p className="text-gray-600 mb-6 leading-relaxed">
                         {caseStudy.description}
                       </p>
-                      <div className="inline-flex items-center space-x-2 bg-emerald-50 text-emerald-800 px-4 py-2 rounded-lg">
+                      <div className="inline-flex items-center space-x-2 bg-red-50 text-red-800 px-4 py-2 rounded-lg">
                         <TrendingUp size={18} />
                         <span className="font-semibold text-sm">
                           {caseStudy.impact}
@@ -62,7 +62,7 @@ const Cases = () => {
                 ) : (
                   <>
                     <CardContent className="p-8 flex flex-col justify-center order-2 md:order-1">
-                      <div className="flex items-center space-x-2 text-emerald-700 mb-4">
+                      <div className="flex items-center space-x-2 text-red-700 mb-4">
                         <MapPin size={18} />
                         <span className="text-sm font-semibold">
                           {caseStudy.location}
@@ -74,7 +74,7 @@ const Cases = () => {
                       <p className="text-gray-600 mb-6 leading-relaxed">
                         {caseStudy.description}
                       </p>
-                      <div className="inline-flex items-center space-x-2 bg-emerald-50 text-emerald-800 px-4 py-2 rounded-lg">
+                      <div className="inline-flex items-center space-x-2 bg-red-50 text-red-800 px-4 py-2 rounded-lg">
                         <TrendingUp size={18} />
                         <span className="font-semibold text-sm">
                           {caseStudy.impact}

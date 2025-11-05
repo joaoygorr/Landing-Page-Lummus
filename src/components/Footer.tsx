@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold text-emerald-400 mb-4">
+            <h3 className="text-2xl font-bold text-red-400 mb-4">
               {companyInfo.name}
             </h3>
             <p className="text-gray-400 mb-4">{companyInfo.description}</p>
@@ -24,7 +24,7 @@ const Footer = () => {
                 href="https://www.facebook.com/LummusDoBrasil?locale=pt_BR"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 hover:bg-emerald-700 rounded-full flex items-center justify-center transition-colors duration-200"
+                className="w-10 h-10 bg-gray-800 hover:bg-red-700 rounded-full flex items-center justify-center transition-colors duration-200"
               >
                 <FaFacebookF />
               </a>
@@ -32,7 +32,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/company/lummus-corporation/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-gray-800 hover:bg-emerald-700 rounded-full flex items-center justify-center transition-colors duration-200"
+                className="w-10 h-10 bg-gray-800 hover:bg-red-700 rounded-full flex items-center justify-center transition-colors duration-200"
               >
                 <FaLinkedinIn />
               </a>
@@ -47,7 +47,7 @@ const Footer = () => {
                 <li key={link.href}>
                   <button
                     onClick={() => scrollToSection(link.href)}
-                    className="text-gray-400 hover:text-emerald-400 transition-colors duration-200"
+                    className="text-gray-400 hover:text-red-400 transition-colors duration-200"
                   >
                     {link.label}
                   </button>
@@ -63,7 +63,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-emerald-400 transition-colors duration-200"
+                  className="text-gray-400 hover:text-red-400 transition-colors duration-200"
                 >
                   Cotton Ginning
                 </a>
@@ -71,7 +71,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-emerald-400 transition-colors duration-200"
+                  className="text-gray-400 hover:text-red-400 transition-colors duration-200"
                 >
                   Oilseed Processing
                 </a>
@@ -79,7 +79,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-emerald-400 transition-colors duration-200"
+                  className="text-gray-400 hover:text-red-400 transition-colors duration-200"
                 >
                   Synthetic Fiber
                 </a>
@@ -87,7 +87,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-400 hover:text-emerald-400 transition-colors duration-200"
+                  className="text-gray-400 hover:text-red-400 transition-colors duration-200"
                 >
                   Fiber Processing
                 </a>
@@ -118,19 +118,19 @@ const Footer = () => {
             <div className="flex space-x-6 text-sm">
               <a
                 href="#"
-                className="text-gray-400 hover:text-emerald-400 transition-colors duration-200"
+                className="text-gray-400 hover:text-red-400 transition-colors duration-200"
               >
                 Privacy Policy
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-emerald-400 transition-colors duration-200"
+                className="text-gray-400 hover:text-red-400 transition-colors duration-200"
               >
                 Terms & Conditions
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-emerald-400 transition-colors duration-200"
+                className="text-gray-400 hover:text-red-400 transition-colors duration-200"
               >
                 Product Safety
               </a>

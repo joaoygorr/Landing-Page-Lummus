@@ -40,7 +40,7 @@ const Contact = () => {
     >
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="text-emerald-700 font-semibold text-sm uppercase tracking-wide">
+          <span className="text-red-700 font-semibold text-sm uppercase tracking-wide">
             ENTRE EM CONTATO
           </span>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4 mb-6">
@@ -68,8 +68,8 @@ const Contact = () => {
 
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center">
-                  <MapPin className="text-emerald-700" size={24} />
+                <div className="flex-shrink-0 w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                  <MapPin className="text-red-700" size={24} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Endereço</h4>
@@ -78,8 +78,8 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center">
-                  <Phone className="text-emerald-700" size={24} />
+                <div className="flex-shrink-0 w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                  <Phone className="text-red-700" size={24} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Telefone</h4>
@@ -88,8 +88,8 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center">
-                  <Mail className="text-emerald-700" size={24} />
+                <div className="flex-shrink-0 w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
+                  <Mail className="text-red-700" size={24} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
@@ -179,7 +179,7 @@ const Contact = () => {
 
               <Button
                 type="submit"
-                className="w-full bg-emerald-700 hover:bg-emerald-800 text-white py-6 text-lg transition-all duration-200 hover:scale-105"
+                className="w-full bg-red-700 hover:bg-red-800 text-white py-6 text-lg transition-all duration-200 hover:scale-105"
               >
                 Send Message
               </Button>

@@ -33,7 +33,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="text-2xl font-bold text-emerald-700">
+            <div className="text-2xl font-bold text-red-700">
               {companyInfo.name}
             </div>
           </div>
@@ -44,7 +44,7 @@ const Header = () => {
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
-                className="text-gray-700 hover:text-emerald-700 font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-red-700 font-medium transition-colors duration-200"
               >
                 {link.label}
               </button>
@@ -55,7 +55,7 @@ const Header = () => {
           <div className="hidden md:block">
             <Button
               onClick={() => scrollToSection("#contact")}
-              className="bg-emerald-700 hover:bg-emerald-800 text-white transition-colors duration-200"
+              className="bg-red-700 hover:bg-red-800 text-white transition-colors duration-200"
             >
               Get Started
             </Button>
@@ -64,7 +64,7 @@ const Header = () => {
           {/* Mobile Menu Toggle */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-gray-700 hover:text-emerald-700"
+            className="md:hidden text-gray-700 hover:text-red-700"
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -78,14 +78,14 @@ const Header = () => {
                 <button
                   key={link.href}
                   onClick={() => scrollToSection(link.href)}
-                  className="text-gray-700 hover:text-emerald-700 font-medium text-left transition-colors duration-200"
+                  className="text-gray-700 hover:text-red-700 font-medium text-left transition-colors duration-200"
                 >
                   {link.label}
                 </button>
               ))}
               <Button
                 onClick={() => scrollToSection("#contact")}
-                className="bg-emerald-700 hover:bg-emerald-800 text-white w-full transition-colors duration-200"
+                className="bg-red-700 hover:bg-red-800 text-white w-full transition-colors duration-200"
               >
                 Get Started
               </Button>
