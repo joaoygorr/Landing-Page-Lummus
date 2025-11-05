@@ -18,14 +18,14 @@ const Hero = () => {
     
     <section
       id="home"
-      className="pt-32 pb-20 bg-gradient-to-b from-emerald-50 to-white"
+      className="pt-32 pb-20 bg-gradient-to-b from-red-50 to-white"
     >
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8 animate-fade-in">
             <div className="inline-block">
-              <span className="bg-emerald-100 text-emerald-800 px-4 py-2 rounded-full text-sm font-semibold">
+              <span className="bg-red-100 text-red-800 px-4 py-2 rounded-full text-sm font-semibold">
                 Soluções líderes do setor
               </span>
             </div>
@@ -46,7 +46,7 @@ const Hero = () => {
               <div className="space-y-3">
                 {centurionFeatures.map((feature, index) => (
                   <div key={index} className="flex items-start space-x-3">
-                    <div className="w-2 h-2 bg-emerald-600 rounded-full mt-2"></div>
+                    <div className="w-2 h-2 bg-red-600 rounded-full mt-2"></div>
                     <div>
                       <h4 className="font-semibold text-gray-900">
                         {feature.title}
@@ -65,7 +65,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 onClick={() => setIsVideoModalOpen(true)}
-                className="bg-emerald-700 hover:bg-emerald-800 text-white px-8 transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
+                className="bg-red-700 hover:bg-red-800 text-white px-8 transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 <Play className="mr-2" size={20} fill="white" />
                 Watch Video
@@ -73,7 +73,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-emerald-700 text-emerald-700 hover:bg-emerald-50 px-8 transition-all duration-200"
+                className="border-red-700 text-red-700 hover:bg-red-50 px-8 transition-all duration-200"
                 onClick={() => window.open('/assets/centurion-brochure.pdf', '_blank')}
               >
                 <FileText className="mr-2" size={20} />
@@ -82,7 +82,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-emerald-700 text-emerald-700 hover:bg-emerald-50 px-8 transition-all duration-200"
+                className="border-red-700 text-red-700 hover:bg-red-50 px-8 transition-all duration-200"
                 onClick={() => window.open('https://shop.lummus.com/', '_blank')}
               >
                 <ShoppingCart className="mr-2" size={20} />
@@ -104,7 +104,7 @@ const Hero = () => {
 
             {/* Floating Stats */}
             <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-xl shadow-lg">
-              <div className="text-4xl font-bold text-emerald-700">50+</div>
+              <div className="text-4xl font-bold text-red-700">50+</div>
               <div className="text-sm text-gray-600">Years of Excellence</div>
             </div>
           </div>
