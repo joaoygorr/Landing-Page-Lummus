@@ -64,15 +64,26 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
-                className="bg-emerald-700 hover:bg-emerald-800 text-white px-8 transition-all duration-200 hover:scale-105"
+                onClick={() => setIsVideoModalOpen(true)}
+                className="bg-emerald-700 hover:bg-emerald-800 text-white px-8 transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
               >
-                {heroContent.cta}
-                <ArrowRight className="ml-2" size={20} />
+                <Play className="mr-2" size={20} fill="white" />
+                Watch Video
               </Button>
               <Button
                 size="lg"
                 variant="outline"
                 className="border-emerald-700 text-emerald-700 hover:bg-emerald-50 px-8 transition-all duration-200"
+                onClick={() => window.open('/assets/centurion-brochure.pdf', '_blank')}
+              >
+                <FileText className="mr-2" size={20} />
+                Learn More
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-emerald-700 text-emerald-700 hover:bg-emerald-50 px-8 transition-all duration-200"
+                onClick={() => window.open('https://shop.lummus.com/', '_blank')}
               >
                 <ShoppingCart className="mr-2" size={20} />
                 {heroContent.secondaryCta}
