@@ -1,9 +1,21 @@
 import { Button } from "./ui/button";
-import { ArrowRight, ShoppingCart } from "lucide-react";
+import { ArrowRight, ShoppingCart, Play, FileText } from "lucide-react";
 import { heroContent, centurionFeatures } from "../mock";
+import { useState } from "react";
+import VideoModal from "./VideoModal";
 
 const Hero = () => {
+  const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
+
   return (
+    <>
+      <VideoModal
+        isOpen={isVideoModalOpen}
+        onClose={() => setIsVideoModalOpen(false)}
+        videoUrl="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        title="Centurion Cotton Ginning System"
+      />
+    
     <section
       id="home"
       className="pt-32 pb-20 bg-gradient-to-b from-emerald-50 to-white"
