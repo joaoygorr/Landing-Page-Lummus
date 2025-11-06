@@ -10,28 +10,28 @@ export const companyInfo = {
 };
 
 export const heroContent = {
-  title: "Cotton Ginning Worldwide",
+  title: "Beneficiamento de Algodão ao Redor do Mundo",
   subtitle:
-    "Lummus' core business continues to be rooted in its line of cotton ginning machinery, known as the Lummus Gentle Ginning System.",
+    "O principal negócio da Lummus continua sendo sua linha de máquinas de beneficiamento de algodão, conhecida como Lummus Gentle Ginning System.",
   cta: "Learn More",
   secondaryCta: "Buy Parts Now",
 };
 
 export const centurionFeatures = [
   {
-    title: "Increased Capacity",
+    title: "Maior capacidade de produção",
     description:
-      "Enhanced processing capabilities to handle larger cotton volumes efficiently",
+      "Capacidades de processamento aprimoradas para lidar com maiores volumes de algodão de forma eficiente.",
   },
   {
-    title: "Enhanced Control Capabilities",
+    title: "Controles aprimorados e mais precisos",
     description:
-      "Advanced automation and precision control systems for optimal performance",
+      "Automação avançada e sistemas de controle preciso para desempenho ideal.",
   },
   {
-    title: "Patented Features",
+    title: "Recursos patenteados e exclusivos",
     description:
-      "Innovative proprietary technology that sets industry standards",
+      "Tecnologia proprietária inovadora que define os padrões da indústria.",
   },
 ];
 
@@ -40,7 +40,7 @@ export const products = [
     id: 1,
     title: "Descaroçamento de algodão",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "A Lummus é referência mundial em máquinas de beneficiamento de algodão, com o sistema Gentle Ginning, projetado para preservar a qualidade da fibra e garantir alto desempenho e confiabilidade em todas as etapas do processo.",
     image:
       "https://images.unsplash.com/photo-1615485500704-8e990f9900f7?w=400&h=400&fit=crop",
   },
@@ -48,7 +48,7 @@ export const products = [
     id: 2,
     title: "Processamento de sementes oleaginosas",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Desde 2002, a Lummus oferece a linha Carver de máquinas e peças para o processamento de sementes oleaginosas, com soluções que vão de instalações simples a usinas completas de óleo de algodão.",
     image:
       "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=400&h=400&fit=crop",
   },
@@ -56,7 +56,7 @@ export const products = [
     id: 3,
     title: "Fibra Sintética",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "A Lummus desenvolve equipamentos personalizados para o processamento de fibras sintéticas, garantindo eficiência e qualidade em cada aplicação.",
     image:
       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=400&fit=crop",
   },
@@ -64,7 +64,7 @@ export const products = [
     id: 4,
     title: "Outros processamentos de fibras",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "A Lummus também atua no processamento de fibras naturais alternativas, como lã, kenaf e cânhamo, oferecendo soluções personalizadas para cada tipo de fibra e aplicação, com base em sua ampla experiência e inovação.",
     image:
       "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=400&h=400&fit=crop",
   },
@@ -74,9 +74,9 @@ export const cases = [
   {
     id: 1,
     title: "AG Producers Co-op",
-    location: "Texas High Plains",
+    location: "Planícies Altas do Texas",
     description:
-      "The phenomenal cotton acreage increase in the northern Texas High Plains created a need for more ginning infrastructure to process the crop volume in a timely fashion, while maintaining the highest quality of fiber possible.",
+      "O aumento fenomenal da área cultivada com algodão nas planícies altas do norte do Texas gerou a necessidade de ampliar a infraestrutura de beneficiamento, a fim de processar o grande volume da colheita de forma eficiente e manter a mais alta qualidade da fibra.",
     image:
       "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop",
     impact: "50% increase in processing capacity",
@@ -84,9 +84,9 @@ export const cases = [
   {
     id: 2,
     title: "Khantex Cotton",
-    location: "Uzbekistan",
+    location: "Uzbequistão",
     description:
-      "A massive cotton-production initiative in the country of Uzbekistan created an urgent need for newer higher capacity ginning facilities, with the latest technology in the industry.",
+      "Uma ampla iniciativa de produção de algodão no Uzbequistão gerou uma necessidade urgente por usinas de beneficiamento mais modernas e de alta capacidade, equipadas com o que há de mais avançado em tecnologia no setor.",
     image:
       "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop",
     impact: "15 new facilities commissioned",
@@ -94,9 +94,9 @@ export const cases = [
   {
     id: 3,
     title: "Southeastern Gin & Peanut, Inc.",
-    location: "Southeastern USA",
+    location: "Sudeste dos Estados Unidos",
     description:
-      "The rise in plastic contamination created an urgent need to detect and remove any contamination pieces prior to the gin stand, ensuring premium fiber quality.",
+      "O aumento da contaminação por plástico em todo o mundo — causada principalmente pelo uso de filmes plásticos nas colheitadeiras modernas de algodão em módulos — gerou uma necessidade urgente de detectar e remover esses fragmentos antes que o algodão chegue à máquina de descaroçamento (gin stand).",
     image:
       "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=400&fit=crop",
     impact: "99% contamination reduction",
@@ -104,9 +104,9 @@ export const cases = [
 ];
 
 export const navLinks = [
-  { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
-  { label: "Products", href: "#products" },
-  { label: "Case Studies", href: "#cases" },
+  { label: "Início", href: "#home" },
+  { label: "Produtos", href: "#products" },
+  { label: "Estudos de Caso", href: "#cases" },
+  { label: "Sobre", href: "#about" },
   { label: "Contato", href: "#contact" },
 ];
