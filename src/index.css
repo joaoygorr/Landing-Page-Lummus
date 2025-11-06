@@ -118,5 +118,17 @@ code {
   /* Force scrollbar to always be visible to maintain consistent layout */
   html {
     overflow-y: scroll;
+    width: 100%;
+  }
+  
+  /* Prevent body from shifting when modal opens */
+  body {
+    overflow-x: hidden !important;
+    position: relative;
+  }
+  
+  /* Override Radix UI's body overflow changes to prevent content shift */
+  body[style*="pointer-events"] {
+    overflow: visible !important;
   }
 }
