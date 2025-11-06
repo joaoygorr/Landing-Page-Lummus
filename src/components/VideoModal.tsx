@@ -10,8 +10,11 @@ interface VideoModalProps {
 
 const VideoModal = ({ isOpen, onClose, videoUrl, title = "Watch Video" }: VideoModalProps) => {
   return (
-    <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-4xl w-full p-0 overflow-hidden bg-black border-none">
+    <Dialog open={isOpen} onOpenChange={onClose} modal={true}>
+      <DialogContent 
+        className="max-w-4xl w-full p-0 overflow-hidden bg-black border-none"
+        onOpenAutoFocus={(e) => e.preventDefault()}
+      >
         <div className="relative">
           {/* Close Button */}
           <button
