@@ -112,3 +112,16 @@ code {
     border-bottom-color: inherit;
   }
 }
+
+/* Fix for modal scrollbar shift - prevents layout shift when modal opens */
+@layer base {
+  /* Calculate scrollbar width and reserve space to prevent shift */
+  body {
+    overflow-y: scroll;
+  }
+  
+  /* When dialog is open and removes scrollbar, prevent layout shift */
+  body[style*="overflow: hidden"] {
+    padding-right: 0 !important;
+  }
+}
