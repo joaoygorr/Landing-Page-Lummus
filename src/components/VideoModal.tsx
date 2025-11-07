@@ -1,4 +1,4 @@
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
+import { Dialog, DialogContent } from "./ui/dialog";
 import { X } from "lucide-react";
 
 interface VideoModalProps {
@@ -8,10 +8,15 @@ interface VideoModalProps {
   title?: string;
 }
 
-const VideoModal = ({ isOpen, onClose, videoUrl, title = "Watch Video" }: VideoModalProps) => {
+const VideoModal = ({
+  isOpen,
+  onClose,
+  videoUrl,
+  title = "Watch Video",
+}: VideoModalProps) => {
   return (
     <Dialog open={isOpen} onOpenChange={onClose} modal={true}>
-      <DialogContent 
+      <DialogContent
         className="max-w-4xl w-full p-0 overflow-hidden bg-black border-none"
         onOpenAutoFocus={(e) => e.preventDefault()}
       >

@@ -1,29 +1,28 @@
-import React from 'react';
-import { Award, Globe, Users, Wrench } from 'lucide-react';
-import { companyInfo } from '../mock';
+import { Award, Globe, Users, Wrench } from "lucide-react";
+import { companyInfo } from "../mock";
 
 const About = () => {
   const stats = [
     {
       icon: <Globe className="w-8 h-8" />,
       value: "60+",
-      label: "Countries Served"
+      label: "Countries Served",
     },
     {
       icon: <Users className="w-8 h-8" />,
       value: "500+",
-      label: "Expert Team"
+      label: "Expert Team",
     },
     {
       icon: <Award className="w-8 h-8" />,
       value: "1000+",
-      label: "Installations"
+      label: "Installations",
     },
     {
       icon: <Wrench className="w-8 h-8" />,
       value: "24/7",
-      label: "Support"
-    }
+      label: "Support",
+    },
   ];
 
   return (
@@ -51,7 +50,9 @@ const About = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-red-100 text-red-700 rounded-full mb-4">
                 {stat.icon}
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-2">{stat.value}</div>
+              <div className="text-3xl font-bold text-gray-900 mb-2">
+                {stat.value}
+              </div>
               <div className="text-sm text-gray-600">{stat.label}</div>
             </div>
           ))}
@@ -62,19 +63,24 @@ const About = () => {
           <div className="p-8 rounded-xl bg-gradient-to-br from-red-50 to-white border border-red-100">
             <h3 className="text-xl font-bold text-gray-900 mb-3">Innovation</h3>
             <p className="text-gray-600">
-              Continuously developing cutting-edge technology to meet the evolving needs of the cotton industry.
+              Continuously developing cutting-edge technology to meet the
+              evolving needs of the cotton industry.
             </p>
           </div>
           <div className="p-8 rounded-xl bg-gradient-to-br from-red-50 to-white border border-red-100">
             <h3 className="text-xl font-bold text-gray-900 mb-3">Quality</h3>
             <p className="text-gray-600">
-              Committed to delivering the highest quality machinery and maintaining superior fiber quality standards.
+              Committed to delivering the highest quality machinery and
+              maintaining superior fiber quality standards.
             </p>
           </div>
           <div className="p-8 rounded-xl bg-gradient-to-br from-red-50 to-white border border-red-100">
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Partnership</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">
+              Partnership
+            </h3>
             <p className="text-gray-600">
-              Building lasting relationships with customers worldwide through exceptional service and support.
+              Building lasting relationships with customers worldwide through
+              exceptional service and support.
             </p>
           </div>
         </div>

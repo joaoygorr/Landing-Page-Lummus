@@ -113,15 +113,12 @@ code {
   }
 }
 
-/* Fix for modal scrollbar shift - prevents layout shift when modal opens */
 @layer utilities {
-  /* Force scrollbar to always be visible on html to reserve space for scrollbar */
   html {
     overflow-y: scroll !important;
     width: 100vw;
   }
-  
-  /* Prevent body from any layout shifts - most aggressive fix */
+
   body {
     overflow-x: hidden !important;
     overflow-y: auto !important;
@@ -130,8 +127,7 @@ code {
     margin: 0 !important;
     padding: 0 !important;
   }
-  
-  /* Override ALL Radix UI inline styles on body */
+
   body[style*="overflow"],
   body[style*="pointer-events"] {
     overflow: auto !important;

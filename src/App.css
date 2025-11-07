@@ -2,12 +2,10 @@
   min-height: 100vh;
 }
 
-/* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
 }
 
-/* Fade in animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -23,7 +21,6 @@ html {
   animation: fadeIn 0.8s ease-out forwards;
 }
 
-/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -41,13 +38,11 @@ html {
   background: #059669;
 }
 
-/* Prevent text selection color issues */
 ::selection {
   background-color: #10b981;
   color: white;
 }
 
-/* Ensure proper line clamping */
 .line-clamp-3 {
   display: -webkit-box;
   -webkit-line-clamp: 3;

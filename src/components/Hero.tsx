@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import { ArrowRight, ShoppingCart, Play, FileText } from "lucide-react";
+import { ShoppingCart, Play, FileText } from "lucide-react";
 import { heroContent, centurionFeatures } from "../mock";
 import { useState } from "react";
 import VideoModal from "./VideoModal";
