@@ -96,7 +96,7 @@ const Hero = () => {
               </div>
 
               {/* Floating Stats */}
-              <div className="absolute -bottom-8 -left-8 bg-white p-6 rounded-xl shadow-lg">
+              <div className="absolute -bottom-8 left-4 lg:left-0 bg-white p-6 rounded-xl shadow-lg">
                 <div className="text-4xl font-bold text-red-700">50+</div>
                 <div className="text-sm text-gray-600">Years of Excellence</div>
               </div>
