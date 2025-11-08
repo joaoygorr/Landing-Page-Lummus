@@ -78,7 +78,6 @@ export const cases = [
       "O aumento fenomenal da área cultivada com algodão nas planícies altas do norte do Texas gerou a necessidade de ampliar a infraestrutura de beneficiamento, a fim de processar o grande volume da colheita de forma eficiente e manter a mais alta qualidade da fibra.",
     image:
       "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop",
-    impact: "50% increase in processing capacity",
   },
   {
     id: 2,
@@ -88,7 +87,6 @@ export const cases = [
       "Uma ampla iniciativa de produção de algodão no Uzbequistão gerou uma necessidade urgente por usinas de beneficiamento mais modernas e de alta capacidade, equipadas com o que há de mais avançado em tecnologia no setor.",
     image:
       "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&h=400&fit=crop",
-    impact: "15 new facilities commissioned",
   },
   {
     id: 3,
@@ -98,7 +96,6 @@ export const cases = [
       "O aumento da contaminação por plástico em todo o mundo — causada principalmente pelo uso de filmes plásticos nas colheitadeiras modernas de algodão em módulos — gerou uma necessidade urgente de detectar e remover esses fragmentos antes que o algodão chegue à máquina de descaroçamento (gin stand).",
     image:
       "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=400&fit=crop",
-    impact: "99% contamination reduction",
   },
 ];
 

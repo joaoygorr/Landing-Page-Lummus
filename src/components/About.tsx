@@ -30,10 +30,10 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <span className="text-red-700 font-semibold text-sm uppercase tracking-wide">
-            About Us
+            SOBRE NÓS
           </span>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mt-4 mb-6">
-            Leading Innovation in Cotton Processing
+            Liderando a inovação no processamento do algodão
           </h2>
           <p className="text-xl text-gray-600 leading-relaxed">
             {companyInfo.description}
@@ -61,26 +61,24 @@ const About = () => {
         {/* Core Values */}
         <div className="grid md:grid-cols-3 gap-8">
           <div className="p-8 rounded-xl bg-gradient-to-br from-red-50 to-white border border-red-100">
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Innovation</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Inovação</h3>
             <p className="text-gray-600">
-              Continuously developing cutting-edge technology to meet the
-              evolving needs of the cotton industry.
+              Desenvolvendo continuamente tecnologia de ponta para atender às
+              necessidades em constante evolução da indústria do algodão.
             </p>
           </div>
           <div className="p-8 rounded-xl bg-gradient-to-br from-red-50 to-white border border-red-100">
-            <h3 className="text-xl font-bold text-gray-900 mb-3">Quality</h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Qualidade</h3>
             <p className="text-gray-600">
-              Committed to delivering the highest quality machinery and
-              maintaining superior fiber quality standards.
+              Comprometida em fornecer máquinas da mais alta qualidade e manter
+              padrões superiores de qualidade de fibra.
             </p>
           </div>
           <div className="p-8 rounded-xl bg-gradient-to-br from-red-50 to-white border border-red-100">
-            <h3 className="text-xl font-bold text-gray-900 mb-3">
-              Partnership
-            </h3>
+            <h3 className="text-xl font-bold text-gray-900 mb-3">Parceria</h3>
             <p className="text-gray-600">
-              Building lasting relationships with customers worldwide through
-              exceptional service and support.
+              Construindo relacionamentos duradouros com clientes em todo o
+              mundo por meio de serviços e suporte excepcionais.
             </p>
           </div>
         </div>

@@ -68,7 +68,7 @@ const Hero = () => {
                   className="bg-red-700 hover:bg-red-800 text-white px-8 transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
                 >
                   <Play className="mr-2" size={20} fill="white" />
-                  Watch Video
+                  Assistir Vídeo
                 </Button>
                 <Button
                   size="lg"
@@ -79,7 +79,7 @@ const Hero = () => {
                   }
                 >
                   <FileText className="mr-2" size={20} />
-                  Learn More
+                  Saiba mais
                 </Button>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Hero = () => {
               {/* Floating Stats */}
               <div className="absolute -bottom-8 left-4 lg:left-0 bg-white p-6 rounded-xl shadow-lg">
                 <div className="text-4xl font-bold text-red-700">50+</div>
-                <div className="text-sm text-gray-600">Years of Excellence</div>
+                <div className="text-sm text-gray-600">Anos de Excelência</div>
               </div>
             </div>
           </div>

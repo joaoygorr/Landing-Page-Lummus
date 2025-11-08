@@ -1,5 +1,5 @@
 import { Card, CardContent } from "./ui/card";
-import { MapPin, TrendingUp } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { cases } from "../mock";
 
 const Cases = () => {
@@ -51,12 +51,6 @@ const Cases = () => {
                       <p className="text-gray-600 mb-6 leading-relaxed">
                         {caseStudy.description}
                       </p>
-                      <div className="inline-flex items-center space-x-2 bg-red-50 text-red-800 px-4 py-2 rounded-lg">
-                        <TrendingUp size={18} />
-                        <span className="font-semibold text-sm">
-                          {caseStudy.impact}
-                        </span>
-                      </div>
                     </CardContent>
                   </>
                 ) : (
@@ -74,12 +68,6 @@ const Cases = () => {
                       <p className="text-gray-600 mb-6 leading-relaxed">
                         {caseStudy.description}
                       </p>
-                      <div className="inline-flex items-center space-x-2 bg-red-50 text-red-800 px-4 py-2 rounded-lg">
-                        <TrendingUp size={18} />
-                        <span className="font-semibold text-sm">
-                          {caseStudy.impact}
-                        </span>
-                      </div>
                     </CardContent>
                     <div className="relative h-64 md:h-auto overflow-hidden order-1 md:order-2">
                       <img
