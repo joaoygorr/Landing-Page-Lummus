@@ -116,7 +116,7 @@ code {
 @layer utilities {
   html {
     overflow-y: scroll !important;
-    width: 100vw;
+    width: 100%;
   }
 
   body {
