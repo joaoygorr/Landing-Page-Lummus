@@ -180,7 +180,7 @@ const Contact = () => {
                 type="submit"
                 className="w-full bg-red-700 hover:bg-red-800 text-white py-6 text-lg transition-all duration-200 hover:scale-105"
               >
-                Send Message
+                Enviar Mensagem
               </Button>
             </form>
           </div>

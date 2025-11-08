@@ -14,8 +14,8 @@ const Cases = () => {
             Nosso Trabalho
           </h2>
           <p className="text-xl text-gray-600">
-            Real-world solutions delivering exceptional results for our clients
-            worldwide
+            Soluções reais que proporcionam resultados excepcionais para nossos
+            clientes
           </p>
         </div>
 

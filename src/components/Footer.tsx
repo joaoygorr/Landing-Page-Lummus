@@ -41,7 +41,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-4">Links rápidos</h4>
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
@@ -58,14 +58,14 @@ const Footer = () => {
 
           {/* Products */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Products</h4>
+            <h4 className="text-lg font-semibold mb-4">Produtos</h4>
             <ul className="space-y-2">
               <li>
                 <a
                   href="#"
                   className="text-gray-400 hover:text-red-400 transition-colors duration-200"
                 >
-                  Cotton Ginning
+                  Descaroçamento de algodão
                 </a>
               </li>
               <li>
@@ -73,7 +73,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-red-400 transition-colors duration-200"
                 >
-                  Oilseed Processing
+                  Processamento de sementes oleaginosas
                 </a>
               </li>
               <li>
@@ -81,7 +81,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-red-400 transition-colors duration-200"
                 >
-                  Synthetic Fiber
+                  Fibra Sintética
                 </a>
               </li>
               <li>
@@ -89,7 +89,7 @@ const Footer = () => {
                   href="#"
                   className="text-gray-400 hover:text-red-400 transition-colors duration-200"
                 >
-                  Fiber Processing
+                  Outros processamentos de fibras
                 </a>
               </li>
             </ul>
@@ -97,7 +97,7 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Contact</h4>
+            <h4 className="text-lg font-semibold mb-4">Contato</h4>
             <ul className="space-y-3 text-gray-400">
               <li className="text-sm leading-relaxed">
                 {companyInfo.location}
@@ -120,19 +120,19 @@ const Footer = () => {
                 href="#"
                 className="text-gray-400 hover:text-red-400 transition-colors duration-200"
               >
-                Privacy Policy
+                Política de Privacidade
               </a>
               <a
                 href="#"
                 className="text-gray-400 hover:text-red-400 transition-colors duration-200"
               >
-                Terms & Conditions
+                Termos e Condições
               </a>
               <a
                 href="#"
                 className="text-gray-400 hover:text-red-400 transition-colors duration-200"
               >
-                Product Safety
+                Segurança do produto
               </a>
             </div>
           </div>

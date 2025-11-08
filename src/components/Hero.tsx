@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import { ShoppingCart, Play, FileText } from "lucide-react";
+import { Play, FileText } from "lucide-react";
 import { heroContent, centurionFeatures } from "../mock";
 import { useState } from "react";
 import VideoModal from "./VideoModal";
@@ -80,17 +80,6 @@ const Hero = () => {
                 >
                   <FileText className="mr-2" size={20} />
                   Learn More
-                </Button>
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-red-700 text-red-700 hover:bg-red-50 px-8 transition-all duration-200"
-                  onClick={() =>
-                    window.open("https://shop.lummus.com/", "_blank")
-                  }
-                >
-                  <ShoppingCart className="mr-2" size={20} />
-                  {heroContent.secondaryCta}
                 </Button>
               </div>
             </div>

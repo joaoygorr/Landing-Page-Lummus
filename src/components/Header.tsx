@@ -57,7 +57,7 @@ const Header = () => {
               onClick={() => scrollToSection("#contact")}
               className="bg-red-700 hover:bg-red-800 text-white transition-colors duration-200"
             >
-              Get Started
+              Contato
             </Button>
           </div>
 

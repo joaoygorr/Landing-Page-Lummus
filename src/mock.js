@@ -2,7 +2,7 @@ export const companyInfo = {
   name: "Lummus Do Brasil",
   tagline: "Cotton Ginning Worldwide",
   description:
-    "World's leading full-line supplier of machinery and replacement parts for the cotton ginning industry.",
+    "Fornecedor de linha completa de máquinas e peças de reposição para a indústria de descaroçamento de algodão.",
   location:
     "Avenida Manoel José de Arruda, 1055 (Antiga Carvalima), Cuiabá, MT, Brazil",
   phone: "(65) 3634-8452",
@@ -14,7 +14,6 @@ export const heroContent = {
   subtitle:
     "O principal negócio da Lummus continua sendo sua linha de máquinas de beneficiamento de algodão, conhecida como Lummus Gentle Ginning System.",
   cta: "Learn More",
-  secondaryCta: "Buy Parts Now",
 };
 
 export const centurionFeatures = [
