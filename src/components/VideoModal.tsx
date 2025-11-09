@@ -5,15 +5,9 @@ interface VideoModalProps {
   isOpen: boolean;
   onClose: () => void;
   videoUrl: string;
-  title?: string;
 }
 
-const VideoModal = ({
-  isOpen,
-  onClose,
-  videoUrl,
-  title = "Watch Video",
-}: VideoModalProps) => {
+const VideoModal = ({ isOpen, onClose, videoUrl }: VideoModalProps) => {
   return (
     <Dialog open={isOpen} onOpenChange={onClose} modal={true}>
       <DialogContent
